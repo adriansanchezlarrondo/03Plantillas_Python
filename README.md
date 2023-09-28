@@ -1,1 +1,2 @@
-# 03Plantillas_Python
+# Proyectos Django
+# Ire añadiendo todos los ejercicios en este repositorio
