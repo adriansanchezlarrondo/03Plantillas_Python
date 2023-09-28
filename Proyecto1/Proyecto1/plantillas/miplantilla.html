@@ -1,0 +1,18 @@
+<html>
+    <body>
+    <h1>
+    Hola esta mi primera plantilla
+    </h1>
+    <p>Me llamo {{nom}} {{cognom}}, y vivo en {{ciutat}}</p>
+    <p>Any naixement: {{any}}</p>
+    <p>Dia y hora actual: {{moment_actual}}</p>
+    <p><strong>5 Modulos DAW:</strong></p>
+    <ul>
+        {% for losModulos in modulos %}
+
+            <li>{{losModulos.capitalize}}</li>
+
+        {% endfor %}
+    </ul>
+    </body>
+</html>
